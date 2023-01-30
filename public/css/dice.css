@@ -4,7 +4,8 @@
  */
 
  .dice-button {
-    background-color: rgb(35, 218, 35);
+    background-color: black;
+    color: white;
     width: 200px;
     height: fit-content;
     font-size: 2em;

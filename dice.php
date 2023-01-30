@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name:     Dice
- * Version:         1.0.2
+ * Version:         1.0.3
  * Description:     Add a dice button to your page or post
  */
 
