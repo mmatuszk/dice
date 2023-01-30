@@ -1,7 +1,8 @@
 <?php
 /*
  * Plugin Name:     Dice
- * Version:         1.0.1
+ * Version:         1.0.2
+ * Description:     Add a dice button to your page or post
  */
 
 add_shortcode('dice', 'mm_dice_shortcode');
@@ -55,3 +56,9 @@ function add_dice_css() {
 }
 
 add_action('wp_enqueue_scripts', 'add_dice_css');
+
+function add_dice_scripts() {
+    wp_enqueue_script('jquery');
+}
+
+add_action('wp_enqueue_scripts', 'add_dice_scripts');
