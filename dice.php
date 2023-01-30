@@ -1,6 +1,7 @@
 <?php
 /*
- * Plugin Name: Dice
+ * Plugin Name:     Dice
+ * Version:         1.0.1
  */
 
 add_shortcode('dice', 'mm_dice_shortcode');
